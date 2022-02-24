@@ -45,7 +45,7 @@ class Navbar extends Component {
                 <div class="d-flex align-items-center">
                  
                     <small className="text-secandary">
-                        <small id="account">{'0x0'}</small>
+                        <small id="account">{this.props.account}</small>
 
                     </small>
                     { this.props.account
